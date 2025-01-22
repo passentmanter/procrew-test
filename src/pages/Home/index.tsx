@@ -1,6 +1,6 @@
 import React from "react";
 
-import MessageCard from "../../components/mobileView";
+import MobileView from "../../components/mobileView";
 
 const HomePage: React.FC = () => {
   return (
@@ -9,7 +9,7 @@ const HomePage: React.FC = () => {
         Form Section
       </div>
       <div className="xxs:order-1 xxs:w-full sm:order-2 md:w-[38%] lg:w-[30%] h-full  flex items-center justify-center  ">
-        <MessageCard name="Ahmed" time="10:30" />
+        <MobileView name="Ahmed" time="10:30" />
       </div>
     </section>
   );
