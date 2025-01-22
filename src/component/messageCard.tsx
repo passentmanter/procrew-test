@@ -81,9 +81,9 @@ const MessageCard: React.FC<MessageCardProps> = ({
           </p>
 
           {/* MESSAGE */}
-          <div className=" bg-white w-[78%] h-fit ml-[1.25em] rounded-lg p-2 text-left relative shadow-xl max-h-[50em]  hide__Scroll">
+          <div className=" bg-white w-[78%] h-fit ml-[1.25em] rounded-lg p-2 text-left relative shadow-xl max-h-[50em] hide__Scroll">
             <img src={personImg} alt='tow persons' className="rounded-lg mb-2" />
-            <p className="max-h-[5em] overflow-scroll hide__Scroll text-[0.9em] font-medium	">
+            <p className="max-h-[4.5em] overflow-scroll hide__Scroll text-[0.9em] font-medium	">
               Hello <span className="font-bold text-[#333]">{name}</span>,<br/> how
               are you doing?
             </p>
