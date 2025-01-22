@@ -19,12 +19,12 @@ import { LuMic } from "react-icons/lu";
 import { PiStickerBold } from "react-icons/pi";
 
 // Props Interface
-interface MessageCardProps {
+interface MobileViewProps {
   name?: string;
   time?: string;
 }
 
-const MessageCard: React.FC<MessageCardProps> = ({
+const MobileView: React.FC<MobileViewProps> = ({
   name = "User",
   time = "10:30",
 }) => {
@@ -143,4 +143,4 @@ const MessageCard: React.FC<MessageCardProps> = ({
   );
 };
 
-export default MessageCard;
+export default MobileView;

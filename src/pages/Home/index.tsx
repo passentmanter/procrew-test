@@ -1,6 +1,6 @@
 import React from "react";
 
-import MessageCard from "../../components/messageCard";
+import MessageCard from "../../components/mobileView";
 
 const HomePage: React.FC = () => {
   return (
