@@ -1,9 +1,8 @@
 @layer tailwind-base, primereact, tailwind-utilities;
 
 @layer tailwind-base {
-  /* @tailwind base; */
+  @tailwind base;
 }
-
 @layer tailwind-utilities {
   @tailwind components;
   @tailwind utilities;
@@ -21,4 +20,30 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+    margin: 0;
+
+}
+
+
+.hide__Scroll::-webkit-scrollbar {
+  display: none;
+}
+
+/* Hide scrollbar for IE, Edge and Firefox */
+.hide__Scroll {
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;  /* Firefox */
+}
+
+
+.left__point{
+	width: 10px;
+	height: 10px;
+	border-left: 0.35em solid transparent;
+	border-right: 0.35em solid transparent;
+	border-top: 1em solid white;
+	position: absolute;
+	left: -12px;
+  bottom: 15px;
+	transform: rotate(70deg);
 }

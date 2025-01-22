@@ -1,5 +1,48 @@
-.App {
+/* Base (Mobile-First) Styles */
+:root {
+  --font-size-small: 12px;
+  --font-size-medium: 14px;
+  --font-size-large: 16px;
+  --icon-size-small: 1.2rem;
+  --icon-size-medium: 1.5rem;
+  --icon-size-large: 1.35rem;
 }
+
+.App {
+  font-size: 16px;
+}
+
+
+
+
+/* Medium Devices (Tablets) */
+@media (min-width: 640px) {
+  .App {
+    font-size:14px;
+  }
+
+}
+
+/* Large Devices (Desktops) */
+@media (min-width: 1024px) {
+  .App {
+    font-size: 16px;
+  }
+
+}
+
+/* Extra-Large Devices (4K Displays) */
+@media (min-width: 1440px) {
+  .App {
+    font-size: calc(var(--font-size-large) * 1.125); /* Slightly larger */
+  }
+
+}
+
+
+
+
+
 
 
 
