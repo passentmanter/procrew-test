@@ -1,12 +1,12 @@
 import React from "react";
 
-// IMAGES
+// Images
 import whBg from "../assets/8c98994518b575bfd8c949e91d20548b.jpg";
 import mobileShape from "../assets/freepik__adjust__49438.png";
 import chatLogo from "../assets/Group 3301.svg";
 import personImg from '../assets/person.jpg'
 
-// ICONS
+// Icons
 import { FaSignal } from "react-icons/fa";
 import { FaWifi } from "react-icons/fa6";
 import { CiBatteryFull } from "react-icons/ci";
@@ -49,7 +49,7 @@ const MessageCard: React.FC<MessageCardProps> = ({
       />
       <div className="top-0 left-0  w-[calc(100%_-_2.05em)] h-[calc(100%_-_1.25em)] overflow-hidden  flex-col bg-[#e5e5e5]  rounded-3xl ">
         
-        {/* HEADER */}
+        {/* Header */}
         <div className="h-[7%] w-full max-w-full px-[1.05em] flex items-center justify-between	">
           <p className="m-0 font-bold text-[0.65em] ">{time}</p>
           <div className="flex gap-[0.4em] ">
@@ -59,7 +59,7 @@ const MessageCard: React.FC<MessageCardProps> = ({
           </div>
         </div>
 
-        {/* MESSAGE HEADER */}
+        {/* Message Header */}
         <div className="h-[4%] flex items-center px-[1em] mb-[0.5em] ">
           <img
             src={chatLogo}
@@ -75,12 +75,12 @@ const MessageCard: React.FC<MessageCardProps> = ({
           style={{ backgroundImage: `url(${whBg})` }}
           className=" w-full h-[79%] pt-1 bg-cover bg-[image:var(--image-url)]"
         >
-          {/* TIME INDICATOR */}
+          {/* Time Indicator */}
           <p className="text-[0.65em] font-bold w-fit m-auto my-2 px-4 py-0 rounded-xl bg-[#e4e4e7] shadow-md  ">
             Today
           </p>
 
-          {/* MESSAGE */}
+          {/* Message */}
           <div className=" bg-white w-[78%] h-fit ml-[1.25em] rounded-lg p-2 text-left relative shadow-xl max-h-[50em] hide__Scroll">
             <img src={personImg} alt='tow persons' className="rounded-lg mb-2" />
             <p className="max-h-[4.5em] overflow-scroll hide__Scroll text-[0.9em] font-medium	">
@@ -126,7 +126,7 @@ const MessageCard: React.FC<MessageCardProps> = ({
           </div>
         </div>
 
-        {/* FOOTER */}
+        {/* Footer */}
         <div className=" h-[6%] w-full max-w-full px-2  flex items-center justify-between gap-1	">
           <FaPlus size={15} />
           <div className="w-[70%] h-[60%] px-1 bg-white rounded-xl flex items-center ">
@@ -136,7 +136,7 @@ const MessageCard: React.FC<MessageCardProps> = ({
           <LuMic size={15} />
         </div>
 
-        {/* MOBILE SHAPE FOOTER */}
+        {/* Mobile Shape Footer */}
         <div className="w-[40%] h-[0.5%] rounded-md bg-[#0f172a]  m-auto mb-2 "></div>
       </div>
     </div>
