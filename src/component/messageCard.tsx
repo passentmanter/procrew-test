@@ -47,12 +47,12 @@ const MessageCard: React.FC<MessageCardProps> = ({
         src={mobileShape}
         alt="mobile shape"
       />
-      <div className="top-0 left-0  w-[calc(100%_-_2.05em)] h-[calc(100%_-_1.5em)] overflow-hidden  flex-col bg-[#e5e5e5]  rounded-3xl ">
+      <div className="top-0 left-0  w-[calc(100%_-_2.05em)] h-[calc(100%_-_1.25em)] overflow-hidden  flex-col bg-[#e5e5e5]  rounded-3xl ">
         
         {/* HEADER */}
         <div className="h-[7%] w-full max-w-full px-[1.05em] flex items-center justify-between	">
           <p className="m-0 font-bold text-[0.65em] ">{time}</p>
-          <div className="flex gap-1 ">
+          <div className="flex gap-[0.4em] ">
             <FaSignal size={15} />
             <FaWifi size={15} />
             <CiBatteryFull size={15} />
@@ -76,7 +76,7 @@ const MessageCard: React.FC<MessageCardProps> = ({
           className=" w-full h-[79%] pt-1 bg-cover bg-[image:var(--image-url)]"
         >
           {/* TIME INDICATOR */}
-          <p className="text-[0.65em] font-bold w-fit m-auto my-2 px-4 py-0 rounded-lg bg-[#e4e4e7] shadow-md  ">
+          <p className="text-[0.65em] font-bold w-fit m-auto my-2 px-4 py-0 rounded-xl bg-[#e4e4e7] shadow-md  ">
             Today
           </p>
 
@@ -87,10 +87,10 @@ const MessageCard: React.FC<MessageCardProps> = ({
               Hello <span className="font-bold text-[#333]">{name}</span>,<br/> how
               are you doing?
             </p>
-            <p className="text-[#999] text-[0.75em] font-medium	 mt-[1.25em] mb-1 ">
+            <p className="text-[#9ca3af] text-[0.75em] font-medium	 mt-[1.25em] mb-1 ">
               Thank you for your time.
             </p>
-            <span className="block text-right text-[0.75em] text-[#999] font-medium">
+            <span className="block text-right text-[0.75em] text-[#9ca3af] font-medium">
               {time}
             </span>
 
